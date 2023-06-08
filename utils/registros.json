@@ -1,0 +1,35 @@
+[
+  {
+    "taxID": "20291404031",
+    "name": "Dr. JUAN PABLO CERANA",
+    "officeCode": "45013",
+    "officeName": "ROSARIO \"A\"",
+    "address": "SANTA FE NRO:2851 PISO: DTO/OF:",
+    "city": "ROSARIO",
+    "postalCode": "2000",
+    "phones": ["(0341)4397741", "(0341)6243321"],
+    "workingHours": "08:00 a 14:00"
+  },
+  {
+    "taxID": "20215270255",
+    "name": "Dr. HECTOR CRISTIAN EMILIO",
+    "officeCode": "45033",
+    "officeName": "ROSARIO \"B\"",
+    "address": "BALCARCE NRO:1020 PISO: DTO/OF:",
+    "city": "ROSARIO",
+    "postalCode": "2000",
+    "phones": ["(0341)4248178", "(0341)4262586"],
+    "workingHours": "08:00 a 14:00"
+  },
+  {
+    "taxID": "27044427406",
+    "name": "Sra. GISELLE MONICA FAVARIO",
+    "officeCode": "45037",
+    "officeName": "ROSARIO \"C\"",
+    "address": "MONTEVIDEO NRO:2534 PISO: DTO/OF:",
+    "city": "ROSARIO",
+    "postalCode": "2000",
+    "phones": ["(0341)4495643", "(0341)4241435"],
+    "workingHours": "08:00 a 14:00"
+  }
+]
