@@ -32,14 +32,20 @@ export default async function Office({ params }) {
       </header>
       <div className="md:w-8/12 m-auto mt-8">
         {data?.dias.length > 0 && data.dias[0]?.Horarios.length > 0 ? (
-          data.dias.map((dia) => (
-            <div className="m-2 mb-4 wrapper-day bg-slate-100 bg-opacity-90 rounded-2xl p-4 shadow-lg">
+          data.dias.map((dia, index) => (
+            <div
+              key={index}
+              className="m-2 mb-4 wrapper-day bg-slate-100 bg-opacity-90 rounded-2xl p-4 shadow-lg"
+            >
               <h3 className="text-slate-600 font-semibold">
                 Turnos para el {dayjs(dia.Fecha).format("dddd DD [de] MMMM")}
               </h3>
               <ul className="flex gap-2 flex-wrap mt-2">
-                {dia.Horarios.map((horario) => (
-                  <li className="bg-white rounded-2xl text-slate-600 p-1 px-3">
+                {dia.Horarios.map((horario, index) => (
+                  <li
+                    key={index}
+                    className="bg-white rounded-2xl text-slate-600 p-1 px-3"
+                  >
                     {horario}
                   </li>
                 ))}

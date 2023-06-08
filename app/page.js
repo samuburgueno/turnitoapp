@@ -16,7 +16,10 @@ export default async function Home() {
         <div className="m-2 mb-4 wrapper-day bg-slate-100 bg-opacity-90 rounded-2xl p-4 shadow-lg">
           <ul className="md:flex gap-2 flex-wrap mt-2">
             {db.map((registro) => (
-              <li className="bg-white rounded-2xl text-slate-600 p-1 px-3 my-2 md:my-0">
+              <li
+                key={registro.officeCode}
+                className="bg-white rounded-2xl text-slate-600 p-1 px-3 my-2 md:my-0"
+              >
                 <a href={`office/${registro.officeCode}`}>
                   {registro.officeName}
                 </a>
